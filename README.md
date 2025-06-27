@@ -26,8 +26,8 @@ A beginner-friendly web vulnerability scanner written in Python, focusing on OWA
 ### Setup
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/simple-vulnerability-scanner.git
-cd simple-vulnerability-scanner
+git clone https://github.com/alprsarsilmaz/simple-web-vuln-scanner.git
+cd simple-web-vuln-scanner
 ```
 
 2. Install required dependencies:
@@ -47,12 +47,12 @@ lxml>=4.6.3
 
 ### Basic Usage
 ```bash
-python vuln_scanner.py https://example.com
+python kripsarsi.py https://xxxx.com/
 ```
 
 ### Advanced Options
 ```bash
-python vuln_scanner.py https://example.com --timeout 15 --threads 10 --output report.json
+python kripsarsi.py https://xxxx.com --timeout 15 --threads 10 --output report.json
 ```
 
 ### Command Line Arguments
@@ -60,33 +60,6 @@ python vuln_scanner.py https://example.com --timeout 15 --threads 10 --output re
 - `--timeout`: Request timeout in seconds (default: 10)
 - `--threads`: Number of concurrent threads (default: 5)
 - `--output`: Save detailed report to JSON file
-
-### Example Output
-```
-Simple Vulnerability Scanner v1.0
-Educational Tool - Use Responsibly!
-
-Starting vulnerability scan for: https://example.com
-==================================================
-Crawling website...
-Found 5 URLs to scan
-------------------------------
-Testing SQL injection on: https://example.com/login
-Testing XSS on: https://example.com/search
-Checking security headers for: https://example.com
-
-[HIGH] SQL Injection: Possible SQL injection in parameter 'username'
-URL: https://example.com/login?username=' OR '1'='1
-
-[MEDIUM] Missing Security Header: XSS protection header missing: X-XSS-Protection
-URL: https://example.com
-
-==================================================
-VULNERABILITY SCAN REPORT
-==================================================
-Total vulnerabilities found: 2
-High: 1, Medium: 1, Low: 0
-```
 
 ## 🔍 Vulnerability Detection
 
@@ -180,7 +153,7 @@ def check_weak_passwords(self, url):
   "url": "https://xxxx.com/login?id=1",
   "description": "Possible SQL injection in parameter 'id'",
   "severity": "High",
-  "timestamp": "2024-07-27 00:30:25"
+  "timestamp": "2025-07-27 00:30:25"
 }
 ```
 
