@@ -151,7 +151,6 @@ This scanner helps you understand:
 ### Example: Adding a new check
 ```python
 def check_weak_passwords(self, url):
-    """Test for weak password policies"""
     common_passwords = ['admin', 'password', '123456']
     
     for password in common_passwords:
@@ -178,10 +177,10 @@ def check_weak_passwords(self, url):
 ```json
 {
   "type": "SQL Injection",
-  "url": "https://example.com/login?id=1",
+  "url": "https://xxxx.com/login?id=1",
   "description": "Possible SQL injection in parameter 'id'",
   "severity": "High",
-  "timestamp": "2024-01-15 14:30:25"
+  "timestamp": "2024-07-27 00:30:25"
 }
 ```
 
