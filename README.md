@@ -212,7 +212,7 @@ We welcome contributions! Here's how you can help:
 
 ## 📝 Changelog
 
-### v1.0.0 (2024-01-15)
+### v1.0.1 (2025-07-27)
 - Initial release
 - SQL injection detection
 - XSS vulnerability testing
