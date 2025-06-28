@@ -5,7 +5,7 @@
 [![Educational](https://img.shields.io/badge/purpose-educational-green.svg)](https://github.com)
 
 A beginner-friendly web vulnerability scanner written in Python, focusing on OWASP Top 10 vulnerabilities. This tool is designed for educational purposes and ethical security testing.
-
+ 
 ## 🎯 Features
 
 - **OWASP Top 10 Focus**: Detects common web vulnerabilities
